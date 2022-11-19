@@ -8,7 +8,7 @@ from sklearn.impute import KNNImputer
 import pickle
 
 class Pipeline_diabetes:
-    """Clase diseñada para crear un pipeline del dataset
+    """Clase diseñada para crear un pipeline del dataset 
     https://raw.githubusercontent.com/jbrownlee/Datasets/master/pima-indians-diabetes.csv
     """
     def __init__(self, dataframe: pd.DataFrame, cols: list, seed: int):
